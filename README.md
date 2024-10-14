@@ -26,4 +26,4 @@ git@github.com:Alefuentes982/pokeApi_Back_ROR_CC.git**
 ***flutter run -d chrome***
 
 ## Screenshoot
-![Screen](ruta/a/captura.png)
+![Screen](screenFront.jpg)
