@@ -1,16 +1,29 @@
-# controlcar_frontend
+# Controlcar Frontend
+ **Interfaz de usuario que permite listar, buscar, capturar y liberar pokemones
+con sistema de paginación y conexion con APi ROR para manejar operaciones**
 
-A new Flutter project.
+**API ROR (clonar en otro directorio local): 
+git@github.com:Alefuentes982/pokeApi_Back_ROR_CC.git**
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Instalación de flutter:
+***https://docs.flutter.dev/get-started/install***
 
-A few resources to get you started if this is your first Flutter project:
+- Clonar repositorio github
+***git@github.com:Alefuentes982/pokeApi_Front_Flutter_CC.git***
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Carpeta Local
+***cd pokemon-flutter-app***
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Instalar dependencias
+***flutter pub get***
+
+- Configurar URL de la APi (ajustar)
+***final String apiUrl = 'http://192.168.xx.xx:3000/pokemons';***
+
+- Ejecutar app (puede ejecutar en otro medio disponible)
+***flutter run -d chrome***
+
+## Screenshoot
+![Screen](ruta/a/captura.png)
